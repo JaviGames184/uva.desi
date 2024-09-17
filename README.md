@@ -38,10 +38,10 @@ GlobalLandTemperaturesByMajorCity.csv: Archivo con la temperatura mensual media 
 Disponemos de información de la temperatura desde el año 1750 hasta el 2013 de un número muy extenso de ciudades y países. Además, en todos los archivos faltan datos de las temperaturas para algunas ubicaciones en fechas previas al 1900. Por estos motivos pensamos modificar los diferentes archivos para reducir el rango de años y número de lugares con el objetivo principal de hacer los datos más manejables y evitar errores por no contar con todos los datos. Por otra parte, será necesario hacer un preprocesamiento de los archivos para conseguir los valores de la temperatura media en los diferentes países para cada año ya que únicamente se tienen estos valores para cada mes.
 
 ## Referencias
-[1]Ortega Arranz, A. Vivaracho, C. (2023). Tema 1. Principios básicos de la Visualización de Datos. Diseño y Evaluación de Sistemas Interactivos. Universidad de Valladolid.
+1. Ortega Arranz, A. Vivaracho, C. (2023). Tema 1. Principios básicos de la Visualización de Datos. Diseño y Evaluación de Sistemas Interactivos. Universidad de Valladolid.
 
-[2] Ortega Arranz, A. Vivaracho, C. (2023). Tema 2. Los datos. Universidad de Valladolid.
+2. Ortega Arranz, A. Vivaracho, C. (2023). Tema 2. Los datos. Universidad de Valladolid.
 
-[3] Ortega Arranz, A. Vivaracho, C. (2023). Tema 5. Percepción y cognición. Universidad de Valladolid.
+3. Ortega Arranz, A. Vivaracho, C. (2023). Tema 5. Percepción y cognición. Universidad de Valladolid.
 
-[4]https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data (Consultada: 16-11-23)
+4. https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data (Consultada: 16-11-23)
