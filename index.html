@@ -1,0 +1,41 @@
+<!-- Javier Ramos Jimeno -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01">
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+
+<html>
+<head>
+  <title>Mapa - Javier Ramos Jimeno</title>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="Mapa.css">
+</head>
+
+<body>
+  <div id="Titulo">
+    <svg width = "100%" height="35">
+      <text x="50%" y="70%" text-anchor="middle" alignment-baseline="middle" 
+            font-size="30" font-family="serif" fill="black" stroke="black" stroke-width="1">
+        Temperatura Global
+      </text>
+    </svg>
+    <div id="TemperaturaGlobal"></div>
+  </div>
+
+
+  <div id="DivMapa"></div>
+  <div id="ElementosMapa">Si quiere más información sobre un país haga click sobre él</div>
+
+  <div id="Year">
+    <div id="YearSeleccionado">2010</div>
+    <input id="DeslizadorYear" type="range" min="1950" max="2010" value="2010" step="1">
+    <div id="ValoresRango">
+      <svg width = "100%" height="30">
+        <text x="5%" y="50%" text-anchor="left" font-size="20" fill="black" stroke="black">1950</text>
+        <text x="95%" y="50%" text-anchor="end" font-size="20" fill="black" stroke="black">2010</text>
+    </div>
+  </div>
+
+  
+  <script src="Mapa.js"></script>
+
+</body>

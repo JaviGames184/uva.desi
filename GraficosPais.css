@@ -1,0 +1,73 @@
+/* Javier Ramos Jimeno */
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 98%;
+    background-color: #acacac;
+}
+
+/* Boton */
+#BotonVolver {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Titulo */
+#Titulo {
+    text-align: center;
+}
+
+/* Grafico Lineas Pais*/
+#DivCheckbox{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#GraficoLineas {
+    width: 100%;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Selectores Ciudades */
+#SeleccionCiudades{
+    width: 100%;
+    height: 5%;
+    padding-right: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#Selectores {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Selector1 {
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+#Selector2 {
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+/* Grafico Lineas Ciudades */
+#GraficoLineasCiudades {
+    width: 100%;
+    height: 35%;
+    box-sizing: border-box;
+}

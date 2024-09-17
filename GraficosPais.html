@@ -1,0 +1,48 @@
+<!-- Javier Ramos Jimeno -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01">
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+
+<html>
+<head>
+  <title>Graficos País - Javier Ramos Jimeno</title>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="GraficosPais.css">
+</head>
+
+<body>
+    <button id="BotonVolver">Volver</button>
+    <div id="Titulo">
+        <h1 id="TituloPais">Nombre del País</h1>
+    </div>
+
+    <div id="DivCheckbox">
+      <input type="checkbox" id="CheckboxTempGlobal" name="CheckboxTempGlobal">
+      <label for="CheckboxTempGlobal">Mostrar temperatura media global</label> 
+    </div>
+    <div id="GraficoLineas"></div>
+    
+    <div id="SeleccionCiudades">
+      <label>Seleccione ciudades para representar</label>
+      <div></div>
+      <div id="Selectores">
+        <div id="Selector1">
+          <svg id="RectAzul" width="10" height="10">
+            <rect width="10" height="10" fill="blue" stroke="black" stroke-width="1"/>
+          </svg> 
+          <select id="ListaCiudades"></select>
+        </div>
+        <div id="Selector2">
+          <svg id="RectRojo" width="10" height="10">
+            <rect width="10" height="10" fill="red" stroke="black" stroke-width="1"/>
+          </svg> 
+          <select id="ListaCiudades2"></select>
+        </div>
+      </div>
+      
+    </div>
+    <div id="GraficoLineasCiudades"></div>
+  
+    <script src="GraficosPais.js"></script>
+
+</body>
